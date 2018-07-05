@@ -1,0 +1,51 @@
+.appointment > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.appointment > form > label {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 20px 0;
+  height: 44px;
+  font-size: 16px;
+}
+
+.appointment-input {
+  border: 0;
+  outline: none;
+  background: transparent;
+  border-bottom: 2px solid black;
+  height: 24px;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  transition: 400ms ease-in-out;
+}
+
+.appointment-input:focus {
+  border-bottom: 2px solid rgb(237, 41, 57, 0.8);
+}
+
+#appointment-button {
+  margin-top: 20px;
+  width: 70%;
+  height: 44px;
+  background: rgb(237, 41, 57, 0.4);
+  border: none;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.32);
+  border-radius: 2px;
+  font-size: 20px;
+  font-weight: 400;
+  outline: none;
+  transition: 240ms ease-in-out;
+}
+
+#appointment-button:hover {
+  background: rgb(237, 41, 57, 0.8);
+}
+
+#appointment-button:active {
+  box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.32);
+}
